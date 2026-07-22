@@ -16,7 +16,7 @@ img { object-fit:cover; }
 .wordmark strong { font-family:var(--font-display), serif; font-size:1.1rem; font-weight:600; letter-spacing:.17em; }
 .wordmark small { margin-top:5px; font-size:.5rem; font-weight:600; letter-spacing:.45em; }
 .wordmark-light { color:var(--ivory); }
-.mark-image { width:38px; height:38px; object-fit:contain; }
+.mark-image { width:112px; height:112px; object-fit:contain; }
 .button { display:inline-flex; align-items:center; justify-content:center; gap:1.25rem; background:var(--gold); color:var(--navy); min-height:56px; padding:0 1.65rem; font-size:.75rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; transition:.25s; }
 .button:hover { background:var(--gold-light); transform:translateY(-2px); }
 .button-small { min-height:44px; padding:0 1.15rem; }
