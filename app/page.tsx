@@ -29,12 +29,12 @@ export default function Home() {
       <header className="site-header">
         <a href="#top" aria-label="Cummins Worldwide home"><Mark /></a>
         <nav aria-label="Primary navigation">
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#wisdom">Wisdom Center</a>
-          <a href="#careers">Careers</a>
+          <a href="/about">About</a>
+          <a href="/services">Services</a>
+          <a href="/wisdom-center">Wisdom Center</a>
+          <a href="/careers">Careers</a>
         </nav>
-        <a className="button button-small" href="#contact">Let&apos;s talk <span aria-hidden="true">↗</span></a>
+        <a className="button button-small" href="/contact">Let&apos;s talk <span aria-hidden="true">↗</span></a>
       </header>
 
       <section className="hero" id="top">
@@ -43,8 +43,8 @@ export default function Home() {
           <h1>Make the decisions that build a <em>lasting legacy.</em></h1>
           <p className="hero-intro">Financial clarity is where progress begins. We help people and businesses turn experience, insight, and discipline into durable growth.</p>
           <div className="hero-actions">
-            <a className="button" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
-            <a className="text-link" href="#services">Explore our services <span aria-hidden="true">↓</span></a>
+            <a className="button" href="/contact">Start a conversation <span aria-hidden="true">↗</span></a>
+            <a className="text-link" href="/services">Explore our services <span aria-hidden="true">↗</span></a>
           </div>
         </div>
         <div className="hero-visual" aria-label="Cummins Worldwide leadership">
@@ -127,7 +127,7 @@ export default function Home() {
 
       <footer>
         <Mark light />
-        <div className="footer-links"><a href="#about">About</a><a href="#services">Services</a><a href="#wisdom">Wisdom Center</a><a href="#careers">Careers</a><a href="#contact">Contact</a></div>
+        <div className="footer-links"><a href="/about">About</a><a href="/services">Services</a><a href="/wisdom-center">Wisdom Center</a><a href="/careers">Careers</a><a href="/contact">Contact</a></div>
         <div className="footer-bottom"><span>© 2026 Cummins Worldwide LLC. All rights reserved.</span><span>Financial Wisdom™ for lasting growth.</span></div>
       </footer>
     </main>

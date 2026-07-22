@@ -1,6 +1,15 @@
 # Cummins Worldwide
 
-A redesigned, responsive Cummins Worldwide website built with Next.js and ready for Vercel.
+A redesigned, responsive, multi-page Cummins Worldwide website built with Next.js and ready for Vercel.
+
+## Pages
+
+- `/` — Home
+- `/about` — About
+- `/services` — Services
+- `/wisdom-center` — Wisdom Center
+- `/careers` — Careers
+- `/contact` — Contact
 
 ## Manage the site
 
