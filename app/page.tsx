@@ -29,12 +29,13 @@ export default function Home() {
       <header className="site-header">
         <a href="#top" aria-label="Cummins Worldwide home"><Mark /></a>
         <nav aria-label="Primary navigation">
+          <a href="/">Home</a>
           <a href="/about">About</a>
           <a href="/services">Services</a>
           <a href="/wisdom-center">Wisdom Center</a>
           <a href="/careers">Careers</a>
         </nav>
-        <a className="button button-small" href="/contact">Let&apos;s talk <span aria-hidden="true">↗</span></a>
+        <a className="button button-small" href="/contact#contact-form">Let&apos;s talk <span aria-hidden="true">↗</span></a>
       </header>
 
       <section className="hero" id="top">
@@ -43,7 +44,7 @@ export default function Home() {
           <h1>Make the decisions that build a <em>lasting legacy.</em></h1>
           <p className="hero-intro">Financial clarity is where progress begins. We help people and businesses turn experience, insight, and discipline into durable growth.</p>
           <div className="hero-actions">
-            <a className="button" href="/contact">Start a conversation <span aria-hidden="true">↗</span></a>
+            <a className="button" href="/contact#contact-form">Start a conversation <span aria-hidden="true">↗</span></a>
             <a className="text-link" href="/services">Explore our services <span aria-hidden="true">↗</span></a>
           </div>
         </div>
@@ -73,11 +74,11 @@ export default function Home() {
         </div>
         <div className="service-label">Personal &amp; Enterprise Finance <span>04 services</span></div>
         <div className="service-grid">
-          {financeServices.map((service) => <article className="service-card" key={service.title}><span>{service.number}</span><h3>{service.title}</h3><p>{service.text}</p><a href="#contact" aria-label={`Discuss ${service.title}`}>Learn more ↗</a></article>)}
+          {financeServices.map((service) => <article className="service-card" key={service.title}><span>{service.number}</span><h3>{service.title}</h3><p>{service.text}</p><a href="/contact#contact-form" aria-label={`Discuss ${service.title}`}>Learn more ↗</a></article>)}
         </div>
         <div className="service-label service-label-hr">Human Resources Solutions <span>04 services</span></div>
         <div className="service-grid">
-          {hrServices.map((service) => <article className="service-card" key={service.title}><span>{service.number}</span><h3>{service.title}</h3><p>{service.text}</p><a href="#contact" aria-label={`Discuss ${service.title}`}>Learn more ↗</a></article>)}
+          {hrServices.map((service) => <article className="service-card" key={service.title}><span>{service.number}</span><h3>{service.title}</h3><p>{service.text}</p><a href="/contact#contact-form" aria-label={`Discuss ${service.title}`}>Learn more ↗</a></article>)}
         </div>
       </section>
 
@@ -88,7 +89,7 @@ export default function Home() {
           <h2>Empowerment<br />through knowledge.</h2>
           <p>Cummins Worldwide™ is built on the idea that fully understanding your finances is the starting line for strategic growth and a lasting competitive edge.</p>
           <p>Founded by Tom Cummins, a trailblazer who built his success from the ground up, we offer more than enterprise guidance—we bring hard-won experience to every conversation.</p>
-          <a className="text-link text-link-light" href="#contact">Discover Financial Wisdom™ <span aria-hidden="true">↗</span></a>
+          <a className="text-link text-link-light" href="/contact#contact-form">Discover Financial Wisdom™ <span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
@@ -118,7 +119,7 @@ export default function Home() {
           <h2>Let&apos;s build what<br />comes <em>next.</em></h2>
         </div>
         <div className="contact-grid">
-          <a href="mailto:Info@Cummins.World"><span>Email</span>Info@Cummins.World ↗</a>
+          <a href="/contact#contact-form"><span>Email</span>Info@Cummins.World ↗</a>
           <a href="tel:+17272235335"><span>Telephone</span>+1 727-223-5335 ↗</a>
           <a href="https://www.google.com/maps/search/?api=1&query=625+Court+St+Suite+100+Clearwater+FL+33756" target="_blank" rel="noreferrer"><span>Visit</span>625 Court St, Suite 100<br />Clearwater, FL 33756 ↗</a>
           <p><span>Hours</span>Monday–Friday<br />7:00 am–3:00 pm EST</p>
@@ -127,7 +128,7 @@ export default function Home() {
 
       <footer>
         <Mark light />
-        <div className="footer-links"><a href="/about">About</a><a href="/services">Services</a><a href="/wisdom-center">Wisdom Center</a><a href="/careers">Careers</a><a href="/contact">Contact</a></div>
+        <div className="footer-links"><a href="/">Home</a><a href="/about">About</a><a href="/services">Services</a><a href="/wisdom-center">Wisdom Center</a><a href="/careers">Careers</a><a href="/contact">Contact</a></div>
         <div className="footer-bottom"><span>© 2026 Cummins Worldwide LLC. All rights reserved.</span><span>Financial Wisdom™ for lasting growth.</span></div>
       </footer>
     </main>

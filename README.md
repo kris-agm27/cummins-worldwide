@@ -10,6 +10,7 @@ A redesigned, responsive, multi-page Cummins Worldwide website built with Next.j
 - `/wisdom-center` — Wisdom Center
 - `/careers` — Careers
 - `/contact` — Contact
+- `/thank-you` — Form submission confirmation
 
 ## Manage the site
 
@@ -26,4 +27,4 @@ Install dependencies with `npm install`, then run `npm run dev`.
 
 Import this folder or its Git repository in Vercel. Vercel detects Next.js automatically; no custom build settings or environment variables are required.
 
-The contact and careers buttons currently use the public Cummins Worldwide email addresses and require no backend service.
+The contact form uses FormSubmit and sends inquiry notifications to `kristopher@agmagency.com`. After the first live submission, open the activation email sent by FormSubmit and confirm the address once. Careers applications link directly to the relevant JobScore listings.

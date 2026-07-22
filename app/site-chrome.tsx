@@ -15,12 +15,13 @@ export function SiteHeader() {
     <header className="site-header">
       <Link href="/" aria-label="Cummins Worldwide home"><Brand /></Link>
       <nav aria-label="Primary navigation">
+        <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/services">Services</Link>
         <Link href="/wisdom-center">Wisdom Center</Link>
         <Link href="/careers">Careers</Link>
       </nav>
-      <Link className="button button-small" href="/contact">Let&apos;s talk <span aria-hidden="true">↗</span></Link>
+      <Link className="button button-small" href="/contact#contact-form">Let&apos;s talk <span aria-hidden="true">↗</span></Link>
     </header>
   );
 }
@@ -30,7 +31,7 @@ export function SiteFooter() {
     <footer>
       <Brand light />
       <div className="footer-links">
-        <Link href="/about">About</Link><Link href="/services">Services</Link><Link href="/wisdom-center">Wisdom Center</Link><Link href="/careers">Careers</Link><Link href="/contact">Contact</Link>
+        <Link href="/">Home</Link><Link href="/about">About</Link><Link href="/services">Services</Link><Link href="/wisdom-center">Wisdom Center</Link><Link href="/careers">Careers</Link><Link href="/contact">Contact</Link>
       </div>
       <div className="footer-bottom"><span>© 2026 Cummins Worldwide LLC. All rights reserved.</span><span>Financial Wisdom™ for lasting growth.</span></div>
     </footer>
@@ -48,6 +49,6 @@ export function PageHero({ eyebrow, title, accent, image, alt }: { eyebrow: stri
 
 export function ContactBand() {
   return (
-    <section className="contact-band"><p className="eyebrow">Start a conversation</p><h2>Ready to make your next<br /><em>good decision?</em></h2><Link className="button" href="/contact">Contact us <span aria-hidden="true">↗</span></Link></section>
+    <section className="contact-band"><p className="eyebrow">Start a conversation</p><h2>Ready to make your next<br /><em>good decision?</em></h2><Link className="button" href="/contact#contact-form">Contact us <span aria-hidden="true">↗</span></Link></section>
   );
 }

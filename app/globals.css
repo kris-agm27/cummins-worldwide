@@ -128,3 +128,59 @@ footer { background:var(--navy); color:var(--ivory); padding:5rem 6vw 2rem; }
 @media(max-width:1000px){.page-hero-with-image,.split-copy,.contact-page{grid-template-columns:1fr}.page-hero-image{min-height:65vw}.insight-grid,.values-row{grid-template-columns:1fr}.insight-grid article,.values-row article{min-height:240px;border-right:0;border-bottom:1px solid rgba(255,255,255,.14)}.insight-grid h3,.values-row h3{margin-top:3rem}}
 @media(max-width:620px){.page-hero{min-height:520px;padding:5rem 1.4rem}.page-hero h1{font-size:4rem}.page-hero-with-image{padding:0}.page-hero-with-image .page-hero-copy{padding:5rem 1.4rem}.page-hero-image{min-height:110vw}.page-section,.contact-band,.contact-page{padding:5rem 1.4rem}.insight-grid,.values-row{padding:0 1.4rem}.insight-grid article,.values-row article{padding:3rem 0}.editorial-image{height:85vw}}
 @media(max-width:620px){.site-header{height:auto;min-height:76px;flex-wrap:wrap;padding-bottom:.8rem}.site-header nav{display:flex;order:3;width:100%;gap:1.35rem;overflow-x:auto;padding:.55rem 0 .1rem;font-size:.58rem;scrollbar-width:none}.site-header nav::-webkit-scrollbar{display:none}.page-hero-with-image .page-hero-copy{padding-top:6rem}}
+
+/* Team */
+.team-section { padding:8rem 6vw 9rem; background:var(--navy); color:var(--ivory); }
+.team-heading { display:grid; grid-template-columns:.45fr 1fr 1fr; gap:5vw; align-items:end; margin-bottom:4rem; }
+.team-heading .eyebrow { margin:0; }
+.team-heading h2,.jobs-heading h2 { margin:0; font-family:var(--font-display),serif; font-size:clamp(3.5rem,5vw,5.8rem); font-weight:500; line-height:.95; }
+.team-heading>p:last-child { margin:0; color:#93a0a9; line-height:1.8; }
+.team-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:rgba(255,255,255,.14); }
+.team-card { min-height:430px; padding:2rem; background:var(--navy-2); display:flex; flex-direction:column; justify-content:space-between; position:relative; overflow:hidden; }
+.team-card>span { color:rgba(200,166,73,.28); font-family:var(--font-display),serif; font-size:6rem; line-height:1; }
+.team-card h3 { margin:0; font-family:var(--font-display),serif; font-size:2rem; font-weight:500; }
+.team-card p { margin:.5rem 0 0; color:var(--gold); font-size:.68rem; letter-spacing:.12em; text-transform:uppercase; }
+.team-card-photo { padding:0; }
+.team-card-photo:after { content:""; position:absolute; inset:40% 0 0; background:linear-gradient(transparent,rgba(7,23,37,.92)); }
+.team-card-photo>div { position:relative; z-index:2; padding:2rem; margin-top:auto; }
+
+/* Careers */
+.jobs-section { padding:8rem 8vw; background:var(--paper); }
+.jobs-heading { display:flex; justify-content:space-between; align-items:end; margin-bottom:5rem; }
+.job-division { margin-top:4rem; }
+.job-division>h3 { margin:0 0 1rem; color:var(--gold); font-size:.72rem; letter-spacing:.18em; text-transform:uppercase; }
+.job-division>div { border-top:1px solid #d7d1c5; }
+.job-row { min-height:100px; display:grid; grid-template-columns:1fr 220px 30px; gap:2rem; align-items:center; border-bottom:1px solid #d7d1c5; transition:.2s; }
+.job-row:hover { padding-left:1rem; background:var(--ivory); }
+.job-title { color:var(--navy); font-family:var(--font-display),serif; font-size:1.75rem; }
+.job-location { color:var(--muted); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; }
+.job-arrow { color:var(--gold); font-size:1.2rem; }
+.career-note { margin-top:5rem; padding-top:3rem; border-top:1px solid #d7d1c5; display:flex; align-items:center; justify-content:space-between; }
+.career-note p { color:var(--navy); font-family:var(--font-display),serif; font-size:2rem; }
+@media(max-width:1000px){.team-heading{grid-template-columns:1fr}.team-grid{grid-template-columns:1fr 1fr}.job-row{grid-template-columns:1fr 180px 30px}}
+@media(max-width:620px){.team-section,.jobs-section{padding:5rem 1.4rem}.team-grid{grid-template-columns:1fr}.team-card{min-height:340px}.jobs-heading{display:block}.job-row{grid-template-columns:1fr 26px;gap:.5rem;padding:1.5rem 0}.job-title{font-size:1.4rem}.job-location{grid-row:2;grid-column:1}.job-arrow{grid-column:2;grid-row:1/3}.career-note{align-items:flex-start;flex-direction:column;gap:1rem}}
+
+/* Contact form */
+.contact-form-section { padding:8rem 8vw; display:grid; grid-template-columns:.8fr 1.2fr; gap:9vw; background:var(--paper); scroll-margin-top:120px; }
+.form-intro h2 { margin:0; color:var(--navy); font-family:var(--font-display),serif; font-size:clamp(3.2rem,5vw,5.6rem); font-weight:500; letter-spacing:-.04em; line-height:.95; }
+.form-intro>p:last-child { max-width:480px; margin-top:2rem; color:var(--muted); line-height:1.8; }
+.inquiry-form { display:flex; flex-direction:column; gap:1.4rem; }
+.form-row { display:grid; grid-template-columns:1fr 1fr; gap:1.4rem; }
+.inquiry-form label { display:flex; flex-direction:column; gap:.65rem; }
+.inquiry-form label>span { color:var(--navy); font-size:.68rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+.inquiry-form input,.inquiry-form select,.inquiry-form textarea { width:100%; border:1px solid #d5cfc3; border-radius:0; background:var(--ivory); color:var(--navy); padding:1rem 1.1rem; font:inherit; outline:none; transition:.2s; }
+.inquiry-form input,.inquiry-form select { min-height:56px; }
+.inquiry-form textarea { resize:vertical; min-height:150px; }
+.inquiry-form input:focus,.inquiry-form select:focus,.inquiry-form textarea:focus { border-color:var(--gold); box-shadow:0 0 0 3px rgba(200,166,73,.12); }
+.inquiry-form .consent { display:flex; flex-direction:row; align-items:center; gap:.75rem; }
+.inquiry-form .consent input { width:18px; min-height:18px; height:18px; accent-color:var(--gold); }
+.inquiry-form .consent span { color:var(--muted); font-size:.78rem; font-weight:500; letter-spacing:0; text-transform:none; }
+.form-submit { align-self:flex-start; border:0; cursor:pointer; }
+.form-note { margin:0; color:#879198; font-size:.7rem; line-height:1.6; }
+.form-honey { position:absolute!important; left:-9999px!important; opacity:0!important; pointer-events:none!important; }
+.thank-you { min-height:720px; padding:9rem 8vw; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; background:var(--ivory); }
+.thank-you h1 { margin:0; color:var(--navy); font-family:var(--font-display),serif; font-size:clamp(4.2rem,7vw,7.5rem); font-weight:500; letter-spacing:-.04em; line-height:.92; }
+.thank-you>p:not(.eyebrow) { max-width:620px; margin:2rem 0; color:var(--muted); font-size:1.05rem; line-height:1.8; }
+.thank-you>div { display:flex; align-items:center; gap:2rem; }
+@media(max-width:1000px){.contact-form-section{grid-template-columns:1fr}.form-intro{margin-bottom:1rem}}
+@media(max-width:620px){.contact-form-section{padding:5rem 1.4rem}.form-row{grid-template-columns:1fr}.thank-you{min-height:650px;padding:6rem 1.4rem}.thank-you>div{align-items:flex-start;flex-direction:column}}
