@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-visual" aria-label="Cummins Worldwide leadership">
-          <Image src="https://agmmarketing.egnyte.com/opendocument.do?entryId=0baec881-aa29-4904-b756-8d2c0fce9892&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true" alt="Tom Cummins in his office" fill sizes="(max-width: 900px) 100vw, 48vw" priority />
+          <Image src="https://cumminsworldwide.world/wp-content/uploads/2026/07/tom-cummins-lets-talk.png" alt="Tom Cummins in his office" fill sizes="(max-width: 900px) 100vw, 48vw" priority />
           <div className="hero-caption"><span>30+</span> years of real-world experience</div>
         </div>
         <div className="hero-index" aria-hidden="true"><span>01</span><i /><span>04</span></div>
