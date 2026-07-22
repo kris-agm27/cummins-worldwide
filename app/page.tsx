@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-visual" aria-label="Cummins Worldwide leadership">
-          <Image src="/tom-cummins-lets-talk.png" alt="Tom Cummins in his office" fill sizes="(max-width: 900px) 100vw, 48vw" priority />
+          <Image src="/tom-cummins.png" alt="Tom Cummins in his office" fill sizes="(max-width: 900px) 100vw, 48vw" priority />
           <div className="hero-caption"><span>30+</span> years of real-world experience</div>
         </div>
         <div className="hero-index" aria-hidden="true"><span>01</span><i /><span>04</span></div>
