@@ -8,8 +8,18 @@ export default function AboutPage() {
   eyebrow="About Cummins Worldwide"
   title="The world’s most effective business solutions."
   description="We help companies build stronger organizations through experienced leadership, practical solutions, and exceptional service."
-  image="/cww-office2.png"
+  <Image
+  src=/cww-office2.png
   alt="Tom Cummins in his office"
+  fill
+  priority
+  quality={100}
+  sizes="(max-width: 900px) 100vw, 50vw"
+  style={{
+    objectFit: "cover",
+    objectPosition: "center center",
+  }}
+/>
 />
     <section className="page-section split-copy"><div><p className="eyebrow">Our philosophy</p><h2>Business can<br /><em>be better.</em></h2></div><div><p>Financial mastery is the cornerstone of everything we do. Using Tom Cummins&apos; proven financial strategies and corporate solutions, we believe it&apos;s your choices—not the economy—that determine your ability to build a lasting legacy.</p><p>Our pursuit of excellence, expertise, and accountability shapes our work. We don&apos;t simply help manage finances; we give clients the understanding and practical tools to grow every part of their business.</p></div></section>
     <section className="team-section"><div className="team-heading"><p className="eyebrow">About us</p><h2>Our <em>team.</em></h2><p>Veteran professionals bringing operational, financial, compliance, and people expertise to every client relationship.</p></div><div className="team-grid"><article className="team-card team-card-photo"><Image src="/cummins1.png" alt="Tom Cummins" fill sizes="(max-width: 700px) 100vw, 25vw"/><div><h3>Tom Cummins</h3><p>CEO | Founder</p></div></article><article className="team-card team-card-photo"><Image src="/adam1.jpeg" alt="Adam Fish" fill sizes="(max-width: 700px) 100vw, 25vw" /> <div> <h3>Adam Fish</h3> <p>Executive Vice President</p></div></article><article className="team-card team-card-photo"><Image src="/katrina.png" alt="Katrina Flair" fill sizes="(max-width: 700px) 100vw, 25vw" /> <div> <h3>Katrina Flair</h3> <p>Chief Compliance Officer</p></div></article><article className="team-card team-card-photo"><Image src="/katlin.png" alt="Katlin Valena" fill sizes="(max-width: 700px) 100vw, 25vw" /> <div> <h3>Katlin Valena</h3> <p>Vice President of Personnel</p></div></article></div></section>
