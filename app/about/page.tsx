@@ -9,7 +9,7 @@ export default function AboutPage() {
   title="The world’s most effective business solutions."
   description="We help companies build stronger organizations through experienced leadership, practical solutions, and exceptional service."
   <Image
-  src=/cww-office2.png
+  src="/cww-office2.png"
   alt="Tom Cummins in his office"
   fill
   priority
