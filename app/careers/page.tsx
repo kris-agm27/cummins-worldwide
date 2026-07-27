@@ -23,9 +23,6 @@ export default function CareersPage(){return <main><SiteHeader /><PageHero
   accent="and be big in it."
   image="/team2.png"
   alt="Cummins Worldwide team outside the Clearwater office"
-  fill
-  className="object-cover"
-  style={{ objectPosition: "60% center" }}
   unoptimized
 />
   <section className="page-section split-copy"><div><p className="eyebrow">Work with us</p><h2>Build a career with<br /><em>real impact.</em></h2></div><div><p>We&apos;re looking for motivated professionals who care about delivering exceptional service and helping clients achieve long-term success.</p><p>Explore our current openings below. Each position links to JobScore for the complete description and application.</p></div></section>
