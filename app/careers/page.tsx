@@ -21,7 +21,7 @@ export default function CareersPage(){return <main><SiteHeader /><PageHero
   eyebrow="Careers"
   title="Be part of something big—"
   accent="and be big in it."
-  image="/team2.jpg"
+  image="/team2.png"
   alt="Cummins Worldwide careers"
 />
   <section className="page-section split-copy"><div><p className="eyebrow">Work with us</p><h2>Build a career with<br /><em>real impact.</em></h2></div><div><p>We&apos;re looking for motivated professionals who care about delivering exceptional service and helping clients achieve long-term success.</p><p>Explore our current openings below. Each position links to JobScore for the complete description and application.</p></div></section>
