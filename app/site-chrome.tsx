@@ -71,7 +71,7 @@ export function PageHero({
             sizes="(max-width: 900px) 100vw, 48vw"
             style={{
               objectFit: "cover",
-              objectPosition: "center 50%",
+              objectPosition: " 80% center",
             }}
           />
         </div>
