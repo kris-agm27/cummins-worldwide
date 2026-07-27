@@ -8,17 +8,8 @@ export default function AboutPage() {
   eyebrow="About Cummins Worldwide"
   title="The world’s most effective business solutions."
   description="We help companies build stronger organizations through experienced leadership, practical solutions, and exceptional service."
-  <Image
-  src="/cww-office2-hd.png"
-  alt="Tom Cummins in his office"
-  fill
-  priority
-  quality={100}
-  sizes="(max-width: 900px) 100vw, 50vw"
-  style={{
-    objectFit: "cover",
-    objectPosition: "center center",
-  }}
+  image="/cww-office2-hd.png"
+  alt="Cummins Worldwide office building"
 />
 />
     <section className="page-section split-copy"><div><p className="eyebrow">Our philosophy</p><h2>Business can<br /><em>be better.</em></h2></div><div><p>Financial mastery is the cornerstone of everything we do. Using Tom Cummins&apos; proven financial strategies and corporate solutions, we believe it&apos;s your choices—not the economy—that determine your ability to build a lasting legacy.</p><p>Our pursuit of excellence, expertise, and accountability shapes our work. We don&apos;t simply help manage finances; we give clients the understanding and practical tools to grow every part of their business.</p></div></section>
