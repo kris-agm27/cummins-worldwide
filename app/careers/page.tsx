@@ -17,19 +17,14 @@ const divisions = [
 
 export const metadata = { title: "Careers | Cummins Worldwide", description: "Explore current career opportunities with Cummins Worldwide." };
 
-export default function CareersPage() {
-  return (
-    <main>
-      <SiteHeader />
-
-      <PageHero
-        eyebrow="Careers"
-        title="Be part of something big—"
-        accent="and be big in it."
-        image="/team2.png"
-        alt="Cummins Worldwide team outside the Clearwater office"
-        unoptimized
-      />
+export default function CareersPage(){return <main><SiteHeader /><PageHero
+  eyebrow="Careers"
+  title="Be part of something big—"
+  accent="and be big in it."
+  image="/team2.png"
+  alt="Cummins Worldwide team outside the Clearwater office"
+  unoptimized
+/>
 
       {/* Keep the remaining Careers page sections here */}
 
