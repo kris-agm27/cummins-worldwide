@@ -110,7 +110,7 @@ export default function Home() {
         <p className="eyebrow">Careers</p>
         <h2>Be part of something big—and be <em>big in it.</em></h2>
         <p>We&apos;re always interested in meeting motivated professionals who care about exceptional service and long-term client success.</p>
-        <a className="button" href="mailto:careers@cummins.world">Explore careers <span aria-hidden="true">↗</span></a>
+        <a className="button" href="https://cummins-worldwide-navy.vercel.app/careers">Explore careers <span aria-hidden="true">↗</span></a>
       </section>
 
       <section className="contact" id="contact">
