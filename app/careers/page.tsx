@@ -25,6 +25,7 @@ export default function CareersPage(){return <main><SiteHeader /><PageHero
   alt="Cummins Worldwide team outside the Clearwater office"
   unoptimized
 />
+  />
 
       {/* Keep the remaining Careers page sections here */}
 
