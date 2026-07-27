@@ -42,7 +42,22 @@ export function PageHero({ eyebrow, title, accent, image, alt }: { eyebrow: stri
   return (
     <section className={`page-hero ${image ? "page-hero-with-image" : ""}`}>
       <div className="page-hero-copy"><p className="eyebrow">{eyebrow}</p><h1>{title}<br /><em>{accent}</em></h1></div>
-      {image && <div className="page-hero-image"><Image src={image} alt={alt || ""} fill priority sizes="(max-width: 900px) 100vw, 48vw" /></div>}
+     {image && (
+  <div className="page-hero-image">
+    <Image
+      src={image}
+      alt={alt || ""}
+      fill
+      priority
+      quality={95}
+      sizes="(max-width: 900px) 100vw, 48vw"
+      style={{
+        objectFit: "cover",
+        objectPosition: "center center",
+      }}
+    />
+  </div>
+)}
     </section>
   );
 }
