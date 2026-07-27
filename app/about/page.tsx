@@ -6,8 +6,8 @@ export const metadata = { title: "About | Cummins Worldwide", description: "Meet
 export default function AboutPage() {
   return <main><SiteHeader /><PageHero
   eyebrow="About Cummins Worldwide"
-  title="The world’s most effective business solutions."
-  description="We help companies build stronger organizations through experienced leadership, practical solutions, and exceptional service."
+  title="The world’s most effective"
+  accent="business solutions."
   image="/cww-office2-hd.png"
   alt="Cummins Worldwide office building"
 />
