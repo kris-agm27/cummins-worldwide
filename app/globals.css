@@ -184,3 +184,16 @@ footer { background:var(--navy); color:var(--ivory); padding:5rem 6vw 2rem; }
 .thank-you>div { display:flex; align-items:center; gap:2rem; }
 @media(max-width:1000px){.contact-form-section{grid-template-columns:1fr}.form-intro{margin-bottom:1rem}}
 @media(max-width:620px){.contact-form-section{padding:5rem 1.4rem}.form-row{grid-template-columns:1fr}.thank-you{min-height:650px;padding:6rem 1.4rem}.thank-you>div{align-items:flex-start;flex-direction:column}}
+
+.wordmark small {
+  position: relative;
+}
+
+.registered-mark {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  font-size: 0.45rem;
+  line-height: 1;
+  letter-spacing: 0;
+}
