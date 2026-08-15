@@ -5,7 +5,9 @@ export function Brand({ light = false }: { light?: boolean }) {
   return (
     <span className={`wordmark ${light ? "wordmark-light" : ""}`}>
       <Image src="/brand-logo.png" alt="" width={84} height={42} className="mark-image" priority />
-      <span><strong>CUMMINS</strong><small>WORLDWIDE</small></span>
+      <span><strong>CUMMINS</strong><small>
+  WORLDWIDE<sup className="registered-mark">®</sup>
+</small></span>
     </span>
   );
 }
