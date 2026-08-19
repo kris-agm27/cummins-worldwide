@@ -21,7 +21,7 @@ export default function CareersPage(){return <main><SiteHeader /><PageHero
   eyebrow="Careers"
   title="Be part of something big—"
   accent="and be big in it."
-  image="/team2.png"
+  image="/cww-team-under-2mb.jpg"
   alt="Cummins Worldwide team outside the Clearwater office"
   unoptimized
 />
