@@ -22,6 +22,7 @@ export function SiteHeader() {
         <Link href="/services">Services</Link>
         <Link href="/wisdom-center">Wisdom Center</Link>
         <Link href="/careers">Careers</Link>
+        <a href="https://tomcummins.world/" target="_blank" rel="noopener noreferrer">Tom Cummins</a>
       </nav>
       <Link className="button button-small" href="/contact#contact-form">Let&apos;s talk <span aria-hidden="true">↗</span></Link>
     </header>

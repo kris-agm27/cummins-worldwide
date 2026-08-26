@@ -34,6 +34,7 @@ export default function Home() {
           <a href="/services">Services</a>
           <a href="/wisdom-center">Wisdom Center</a>
           <a href="/careers">Careers</a>
+          <a href="https://tomcummins.world/" target="_blank" rel="noopener noreferrer">Tom Cummins</a>
         </nav>
         <a className="button button-small" href="/contact#contact-form">Let&apos;s talk <span aria-hidden="true">↗</span></a>
       </header>
