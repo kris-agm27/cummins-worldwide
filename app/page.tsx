@@ -1,24 +1,11 @@
 import Image from "next/image";
-
-const financeServices = [
-  { number: "01", title: "Budgeting Resources", slug: "budgeting-resources", text: "Build a clear operating plan that turns financial data into confident, practical decisions." },
-  { number: "02", title: "Tax Solutions", slug: "tax-solutions", text: "Thoughtful tax support designed around the realities of individuals and growing enterprises." },
-  { number: "03", title: "Bookkeeping & Accounting", slug: "bookkeeping-accounting", text: "Reliable reporting and clean financial records that help leaders see what is really happening." },
-  { number: "04", title: "Risk Management", slug: "risk-management", text: "Identify exposure early, protect what you have built, and prepare your business for what comes next." },
-];
-
-const hrServices = [
-  { number: "05", title: "Policy & Training", slug: "policy-training-programs", text: "Practical programs that create consistency, strengthen culture, and help teams perform." },
-  { number: "06", title: "Talent Sourcing", slug: "talent-sourcing", text: "Find capable people who fit the role, the organization, and the ambition behind the business." },
-  { number: "07", title: "Employee Retention", slug: "employee-retention-resources", text: "Build the systems and working environment that make strong people want to stay." },
-  { number: "08", title: "Corporate Compliance", slug: "corporate-compliance", text: "Clear guidance and dependable processes for the obligations that come with growth." },
-];
+import { HomeServiceExplorer } from "./services/service-explorer";
 
 function Mark({ light = false }: { light?: boolean }) {
   return (
     <span className={`wordmark ${light ? "wordmark-light" : ""}`}>
       <Image src="/brand-logo.png" alt="" width={84} height={42} className="mark-image" priority />
-      <span><strong>CUMMINS</strong><small>WORLDWIDE</small></span>
+      <span><strong>CUMMINS</strong><small>WORLDWIDE<sup aria-label="Registered trademark">®</sup></small></span>
     </span>
   );
 }
@@ -73,14 +60,7 @@ export default function Home() {
           <div><p className="eyebrow">What we do</p><h2>Expertise that moves<br /><em>business forward.</em></h2></div>
           <p>Focused guidance across the two foundations every healthy organization depends on: sound finances and strong people.</p>
         </div>
-        <div className="service-label">Personal &amp; Enterprise Finance <span>04 services</span></div>
-        <div className="service-grid">
-          {financeServices.map((service) => <article className="service-card" key={service.title}><span>{service.number}</span><h3>{service.title}</h3><p>{service.text}</p><a href={`/services?service=${service.slug}`} aria-label={`Learn more about ${service.title}`}>Learn more ↗</a></article>)}
-        </div>
-        <div className="service-label service-label-hr">Human Resources Solutions <span>04 services</span></div>
-        <div className="service-grid">
-          {hrServices.map((service) => <article className="service-card" key={service.title}><span>{service.number}</span><h3>{service.title}</h3><p>{service.text}</p><a href={`/services?service=${service.slug}`} aria-label={`Learn more about ${service.title}`}>Learn more ↗</a></article>)}
-        </div>
+        <HomeServiceExplorer />
       </section>
 
       <section className="wisdom" id="wisdom">
