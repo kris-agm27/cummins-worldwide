@@ -111,12 +111,19 @@ export default function Home() {
             src="https://www.google.com/maps?q=625+Court+St+Suite+100%2C+Clearwater%2C+FL+33756&amp;output=embed"
             loading="lazy"
             allowFullScreen
+            tabIndex={-1}
             referrerPolicy="no-referrer-when-downgrade"
           />
           <div className="map-brand-card" aria-hidden="true">
             <Image src="/brand-logo.png" alt="" width={54} height={27} />
             <span><strong>Cummins Worldwide</strong><small>Clearwater office</small></span>
           </div>
+          <a
+            className="map-open-link"
+            href="https://www.google.com/maps/search/?api=1&query=625+Court+St+Suite+100+Clearwater+FL+33756"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Open interactive map <span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
