@@ -105,12 +105,21 @@ export default function Home() {
           <a href="https://www.google.com/maps/search/?api=1&query=625+Court+St+Suite+100+Clearwater+FL+33756" target="_blank" rel="noreferrer"><span>Visit</span>625 Court St, Suite 100<br />Clearwater, FL 33756 ↗</a>
           <p><span>Hours</span>Monday–Friday<br />7:00 am–3:00 pm EST</p>
         </div>
+        <div className="contact-map">
+          <iframe
+            title="Google Map showing the Cummins Worldwide office"
+            src="https://www.google.com/maps?q=625+Court+St+Suite+100%2C+Clearwater%2C+FL+33756&amp;output=embed"
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
       </section>
 
       <footer>
         <Mark light />
         <div className="footer-links"><a href="/">Home</a><a href="/about">About</a><a href="/services">Services</a><a href="/wisdom-center">Wisdom Center</a><a href="/careers">Careers</a><a href="/contact">Contact</a></div>
-        <div className="footer-bottom"><span>© 2026 Cummins Worldwide LLC. All rights reserved.</span><span>Financial Wisdom™ for lasting growth.</span></div>
+        <div className="footer-bottom"><span>© 2026 Cummins Worldwide LLC. All rights reserved. · Website created by <a href="https://www.agmagency.com" target="_blank" rel="noopener noreferrer">AGM Marketing</a></span><span>Financial Wisdom™ for lasting growth.</span></div>
       </footer>
     </main>
   );
