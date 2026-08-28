@@ -113,6 +113,10 @@ export default function Home() {
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
           />
+          <div className="map-brand-card" aria-hidden="true">
+            <Image src="/brand-logo.png" alt="" width={54} height={27} />
+            <span><strong>Cummins Worldwide</strong><small>Clearwater office</small></span>
+          </div>
         </div>
       </section>
 
