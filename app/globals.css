@@ -198,6 +198,7 @@ footer { background:var(--navy); color:var(--ivory); padding:5rem 6vw 2rem; }
 .inquiry-form .consent span { color:var(--muted); font-size:.78rem; font-weight:500; letter-spacing:0; text-transform:none; }
 .form-submit { align-self:flex-start; border:0; cursor:pointer; }
 .form-note { margin:0; color:#879198; font-size:.7rem; line-height:1.6; }
+.form-error { margin:0; padding:1rem 1.1rem; border-left:4px solid #a43b32; background:#f7e8e4; color:#7b2822; font-size:.8rem; line-height:1.5; }
 .form-honey { position:absolute!important; left:-9999px!important; opacity:0!important; pointer-events:none!important; }
 .thank-you { min-height:720px; padding:9rem 8vw; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; background:var(--ivory); }
 .thank-you h1 { margin:0; color:var(--navy); font-family:var(--font-display),serif; font-size:clamp(4.2rem,7vw,7.5rem); font-weight:500; letter-spacing:-.04em; line-height:.92; }
