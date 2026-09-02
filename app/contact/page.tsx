@@ -6,10 +6,10 @@ export default function ContactPage(){return <main><SiteHeader /><PageHero eyebr
   <section className="contact-form-section" id="contact-form">
     <div className="form-intro"><p className="eyebrow">Send an inquiry</p><h2>Tell us what you&apos;re<br /><em>working toward.</em></h2><p>Share a few details and our team will follow up to discuss the clearest next step.</p></div>
     <form className="inquiry-form" action="https://formsubmit.co/admin@agmagency.com" method="POST">
-      <input type="hidden" name="_subject" value="New Cummins Worldwide website inquiry" />
+      <input type="hidden" name="_subject" value="New Service Inquiry – Cummins WorldWide." />
       <input type="hidden" name="_next" value="https://cummins-worldwide-navy.vercel.app/thank-you" />
       <input type="hidden" name="_template" value="table" />
-      <input type="hidden" name="_autoresponse" value="Thank you for contacting Cummins Worldwide. We received your inquiry, and a member of our team will follow up as soon as possible." />
+      <input type="hidden" name="_autoresponse" value={"Thank you for contacting Cummins WorldWide. We received your service inquiry, and a member of our team will follow up as soon as possible.\n\nBest,\nCummins WorldWide Team"} />
       <input className="form-honey" type="text" name="_honey" tabIndex={-1} autoComplete="off" />
       <div className="form-row"><label><span>Full name *</span><input type="text" name="name" autoComplete="name" required placeholder="Your name" /></label><label><span>Email address *</span><input type="email" name="email" autoComplete="email" required placeholder="you@company.com" /></label></div>
       <div className="form-row"><label><span>Phone</span><input type="tel" name="phone" autoComplete="tel" placeholder="Your phone number" /></label><label><span>Company</span><input type="text" name="company" autoComplete="organization" placeholder="Company name" /></label></div>
